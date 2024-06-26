@@ -1,0 +1,102 @@
+@import url('reset.css');
+main{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 62.8vw;
+    max-width: 952px;
+    min-width: 750px;
+    height: 736px;
+    margin: 30px 30px 0px 50px;
+}
+
+#video img{
+    width: 63.8vw;
+    max-width: 952px;
+    min-width: 750px;
+    height: 537px;
+    margin-bottom: -20px;
+}
+
+
+#info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 99%;
+}
+
+#video+h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+#canal{
+    display: flex;
+    width: 160px;
+    gap:10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#canal img{
+    width: 42px;
+}
+
+.S-item{
+    flex: initial;
+}
+
+h5.S-item{
+    white-space: pre-line;
+}
+
+h5.S-item span{
+    font-family: Roboto;
+    font: 400;
+    color: #515151;
+}
+
+#info button{
+    background-color: #CC0000;
+    width: 159px;
+    height: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #FFF;
+    border: none;
+    border-radius: 2px;
+}
+
+.Icones span{
+    font-weight: bold;
+}
+.Icones{
+    display: flex;
+    align-items: center;
+    gap: 10px;   
+}
+#descricao{
+    width: 510px;
+    height: 130px;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #515151;
+    margin-top: -20px;
+    white-space: pre-line;
+}
+
+#descricao h4{
+    font-weight: 700;
+    color: #000;
+}
+
+#descricao p{
+    height: 64px;
+    margin-top: 5px;
+}

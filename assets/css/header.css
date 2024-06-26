@@ -1,0 +1,44 @@
+header{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px;
+    height: 56px;
+    box-sizing: border-box;
+}
+#menu #S-menu{
+    margin-right: 30px;
+}
+
+#pesquisar input{
+    width: 30vw;
+    min-width: 200px;
+    height: 2.5rem;
+}   
+
+
+#lupa{
+    width: 57px;
+    height: 40px;
+    position: relative;
+    top: 6px;
+    right: 5px;
+}
+
+#guest{
+    width: 35px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.meu.H-item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.meu svg{
+    width: 25px;
+}
